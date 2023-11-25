@@ -1,0 +1,134 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+    overflow-x:hidden ;
+    box-sizing: border-box;
+   
+ }
+ nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-left: 100px;
+ 
+position: sticky;
+height: 80px;
+width: 80vw;
+ }
+ nav>div>div>button{
+    margin: 0px 24px;
+    border: none;
+    background-color: white;
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+ }
+ #home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ nav>div>img{
+    margin-left: 30px;
+ }
+ nav>div>button:hover{
+  color: #509E2F;
+ }
+
+ #container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.cont{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(0, -50%);
+    color: white; /* Set your desired text color */
+    font-size: 24px; /* Set your desired font size */
+    font-weight: bold; /* Set your desired font weight */
+}
+.cont h3{
+font-size: 24px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+color: #DC582A;
+}
+.cont p{
+font-size: 40px;
+font-weight: 700;
+line-height: 51px;
+letter-spacing: 0em;
+ color: #FFFFFF;
+}
+.cont h4{
+font-size: 20px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: 0em;
+color: #FFFFFF;
+}
+/* ///////////////////////////////////////////// */
+
+#search{
+ width: 80vw;
+ margin: auto;
+ margin: 20px 0pxs;
+}
+#search h1{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0em;
+    color: #252525; 
+    margin-bottom:10px ; 
+}
+
+.searchIcon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#F3F3F3;
+    height: 33px;
+}
+.searchIcon>div input{
+    color: #252525;
+    border: none;
+    background-color:#F3F3F3;
+    margin-left: 10px;
+}
+.ba{
+    height: 33px ;
+    width: 40px;
+background-color: #509E2F;
+ text-align: center;
+ 
+}
+.option{
+    margin-top: 20px;
+}
+.option button{
+    background-color: #DC582A;
+    height: 86px;
+    width: 236px;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+.option button img{
+    
+}
